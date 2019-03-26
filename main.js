@@ -45,24 +45,25 @@ creatWrapper = ()=>{
 //Create Navbar with buttons
 creatNav = ()=>{
   getImageNavbar();
-  divWrap.appendChild(navbar);
-  navbar.appendChild(nav);
+
   navbar.className = "navbar";
   for (let i = 0;i<naveMenuItems.length;i++){
     if (i == 0){
           sub.innerHTML = naveMenuItems[i];
           sub.className = "sumbitNav active";
           sub.id = i;
-          subs = sub.cloneNode(true);
+         let subs = sub.cloneNode(true);
           nav.appendChild(subs);
     }else{
         sub.innerHTML = naveMenuItems[i];
         sub.className = "sumbitNav";
         sub.id = i;
-        subs = sub.cloneNode(true);
+         let subs = sub.cloneNode(true);
         nav.appendChild(subs);
     }
   }
+  navbar.appendChild(nav);
+  divWrap.appendChild(navbar);
 
   openFlyMode();
 }
