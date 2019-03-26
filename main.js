@@ -48,7 +48,7 @@ creatNav = ()=>{
   divWrap.appendChild(navbar);
   navbar.appendChild(nav);
   navbar.className = "navbar";
-  for (let i = 0;i<naveMenuItems.letength;i++){
+  for (let i = 0;i<naveMenuItems.length;i++){
     if (i == 0){
           sub.innerHTML = naveMenuItems[i];
           sub.className = "sumbitNav active";
