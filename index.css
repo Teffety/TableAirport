@@ -143,9 +143,11 @@ td p {
 
 }
 footer{
-  margin-left: 5%;
-  display: grid;
-  grid-template: auto /repeat(auto,10%);
+  margin: 20px 0 0 0;
+  display:flex;
+  flex-flow:row wrap;
+  justify-content:space-around;
+  align-item:flex-start;
 }
 footer a {
 margin-top: 10%;
