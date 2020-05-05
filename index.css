@@ -142,15 +142,12 @@ td p {
   height: 100px;
 
 }
-footer{
+.footer{
   margin: 20px 0 0 0;
   display:flex;
   flex-flow:row wrap;
   justify-content:space-around;
   align-item:flex-start;
-}
-footer a {
-margin-top: 10%;
 }
 footer a:hover{
   color:rgb(200,150,0);
